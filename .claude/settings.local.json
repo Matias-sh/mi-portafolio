@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:robotech.com)",
+      "Read(/C:\\Users\\Matias\\Downloads/**)",
+      "Bash(python:*)",
+      "Bash(venvScriptsactivate.bat)",
+      "Bash(pip install:*)",
+      "Bash(.venvScriptsactivate)",
+      "Bash(django-admin startproject:*)",
+      "Bash(npm install)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
