@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "title": "VulnScan Pro",
+    "slug": "vulnscan-pro",
+    "type": "security",
+    "category": "Cybersecurity Tool",
+    "description": "Herramienta automatizada de escaneo de vulnerabilidades web con interfaz moderna y reportes detallados.",
+    "detailedDescription": "VulnScan Pro es una herramienta completa de pentesting automatizado que combina múltiples técnicas de escaneo para identificar vulnerabilidades en aplicaciones web.\n\n**Características principales:**\n• Escaneo automatizado de OWASP Top 10\n• Integración con bases de datos de vulnerabilidades (CVE, NVD)\n• Reportes detallados en PDF y HTML\n• Dashboard interactivo para análisis de resultados\n• API REST para integración con otras herramientas\n• Soporte para autenticación y sesiones\n\n**Tecnologías utilizadas:**\n• Backend: Python, Django, Celery\n• Frontend: React, TypeScript, Tailwind CSS\n• Base de datos: PostgreSQL, Redis\n• Tools: Nmap, Nikto, SQLmap integration",
+    "technologies": ["Python", "Django", "React", "PostgreSQL", "Nmap", "Celery"],
+    "githubUrl": "https://github.com/Matias-sh/vulnscan-pro",
+    "liveUrl": "",
+    "demoUrl": "",
+    "imageUrl": "",
+    "featured": true,
+    "status": "In Development",
+    "startDate": "2024-01-01",
+    "endDate": null,
+    "challenges": [
+      "Integración de múltiples herramientas de pentesting",
+      "Manejo de escaneos asíncronos de larga duración",
+      "Generación de reportes profesionales"
+    ],
+    "achievements": [
+      "Detección automática de 15+ tipos de vulnerabilidades",
+      "Reducción del 60% en tiempo de escaneo manual",
+      "Interface intuitiva para pentesters junior"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "PetCare Manager",
+    "slug": "petcare-manager",
+    "type": "mobile",
+    "category": "Android App",
+    "description": "Aplicación móvil para gestión integral de cuidado de mascotas desarrollada con Jetpack Compose y arquitectura moderna.",
+    "detailedDescription": "Aplicación móvil completa para el cuidado y gestión de mascotas, desarrollada con las últimas tecnologías de Android.\n\n**Funcionalidades:**\n• Perfil completo de mascotas con historial médico\n• Recordatorios de vacunas y medicamentos\n• Agenda de citas veterinarias\n• Seguimiento de peso y crecimiento\n• Diario de actividades y comportamiento\n• Búsqueda de veterinarias cercanas con Maps API\n\n**Arquitectura:**\n• Clean Architecture con MVVM\n• Repository Pattern para datos\n• Inyección de dependencias con Hilt\n• Base de datos local con Room\n• Sincronización con API REST",
+    "technologies": ["Kotlin", "Jetpack Compose", "Room", "Hilt", "Retrofit", "Maps API"],
+    "githubUrl": "https://github.com/Matias-sh/petcare-manager",
+    "liveUrl": "",
+    "demoUrl": "",
+    "imageUrl": "",
+    "featured": true,
+    "status": "Completed",
+    "startDate": "2023-06-01",
+    "endDate": "2023-11-30",
+    "challenges": [
+      "Implementación de notificaciones inteligentes",
+      "Sincronización offline/online de datos",
+      "Integración con Google Maps API"
+    ],
+    "achievements": [
+      "100% desarrollo en Jetpack Compose",
+      "Arquitectura limpia y testeable",
+      "Excelente experiencia de usuario"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "CTF Challenge Platform",
+    "slug": "ctf-platform",
+    "type": "web",
+    "category": "Educational Platform",
+    "description": "Plataforma web para hosting de competencias CTF con sistema de scoring automático y gestión de equipos.",
+    "detailedDescription": "Plataforma completa para organizar y participar en competencias de Capture The Flag (CTF) con funcionalidades avanzadas de scoring y administración.\n\n**Características:**\n• Sistema de usuarios con roles (admin, team, player)\n• Categorías de desafíos (Web, Crypto, Forensics, PWN, etc.)\n• Scoring dinámico basado en dificultad y tiempo\n• Chat en tiempo real para equipos\n• Dashboard de administración completo\n• Sistema de hints progresivos\n• Exportación de resultados y estadísticas\n\n**Seguridad:**\n• Contenedores Docker aislados para challenges\n• Rate limiting y protección DDoS\n• Logging completo de actividades\n• Backup automático de base de datos",
+    "technologies": ["Django", "Python", "React", "Docker", "PostgreSQL", "Redis", "WebSockets"],
+    "githubUrl": "https://github.com/Matias-sh/ctf-platform",
+    "liveUrl": "",
+    "demoUrl": "",
+    "imageUrl": "",
+    "featured": true,
+    "status": "In Development",
+    "startDate": "2024-02-01",
+    "endDate": null,
+    "challenges": [
+      "Aislamiento seguro de challenges",
+      "Scoring dinámico en tiempo real",
+      "Escalabilidad para múltiples equipos"
+    ],
+    "achievements": [
+      "Sistema de contenedores seguros",
+      "Dashboard de administración completo",
+      "Soporte para 100+ usuarios concurrentes"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Network Discovery Tool",
+    "slug": "network-discovery",
+    "type": "security",
+    "category": "CLI Tool",
+    "description": "Herramienta de línea de comandos para descubrimiento automático de dispositivos y servicios en redes.",
+    "detailedDescription": "Herramienta de línea de comandos desarrollada en Python para el descubrimiento automático de dispositivos y servicios en redes locales y remotas.\n\n**Funcionalidades:**\n• Escaneo de redes con múltiples técnicas (ping, ARP, SYN)\n• Detección de servicios y versiones\n• Fingerprinting de sistemas operativos\n• Detección de vulnerabilidades conocidas\n• Exportación en múltiples formatos (JSON, XML, CSV)\n• Integración con bases de datos de vulnerabilidades\n• Modo sigiloso para evitar detección\n\n**Uso típico:**\n```bash\npython netdisco.py -t 192.168.1.0/24 --services --os-detect --vulns\npython netdisco.py -f targets.txt --output json --threads 50\n```",
+    "technologies": ["Python", "Scapy", "Threading", "JSON", "XML"],
+    "githubUrl": "https://github.com/Matias-sh/network-discovery",
+    "liveUrl": "",
+    "demoUrl": "",
+    "imageUrl": "",
+    "featured": false,
+    "status": "Completed",
+    "startDate": "2023-09-01",
+    "endDate": "2023-10-15",
+    "challenges": [
+      "Optimización de velocidad de escaneo",
+      "Detección precisa de servicios",
+      "Evasión de sistemas de detección"
+    ],
+    "achievements": [
+      "Escaneo de 1000+ hosts en <5 minutos",
+      "95% precisión en detección de servicios",
+      "Modo stealth implementado"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Android Security Analyzer",
+    "slug": "android-security-analyzer",
+    "type": "security",
+    "category": "Mobile Security",
+    "description": "Herramienta para análisis estático de seguridad en aplicaciones Android (APK analysis).",
+    "detailedDescription": "Herramienta especializada en el análisis de seguridad de aplicaciones Android mediante técnicas de análisis estático.\n\n**Capacidades de análisis:**\n• Extracción y análisis de permisos\n• Detección de hardcoded secrets\n• Análisis de certificados y firma\n• Detección de bibliotecas vulnerables\n• Análisis de código obfuscado\n• Detección de anti-debugging\n• Extracción de strings sensibles\n\n**Reportes generados:**\n• Reporte de vulnerabilidades encontradas\n• Análisis de superficie de ataque\n• Recomendaciones de mitigación\n• Score de seguridad general",
+    "technologies": ["Python", "Java", "Android SDK", "Androguard", "JADX"],
+    "githubUrl": "https://github.com/Matias-sh/android-security-analyzer",
+    "liveUrl": "",
+    "demoUrl": "",
+    "imageUrl": "",
+    "featured": false,
+    "status": "In Development",
+    "startDate": "2024-03-01",
+    "endDate": null,
+    "challenges": [
+      "Análisis de código obfuscado",
+      "Detección de false positives",
+      "Manejo de APKs grandes (>100MB)"
+    ],
+    "achievements": [
+      "Detección de 20+ tipos de vulnerabilidades",
+      "Soporte para APKs obfuscados",
+      "Reportes detallados y accionables"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Portfolio Cyberpunk",
+    "slug": "portfolio-cyberpunk",
+    "type": "web",
+    "category": "Personal Website",
+    "description": "Portfolio personal con temática cyberpunk desarrollado con React y desplegado en GitHub Pages.",
+    "detailedDescription": "Portfolio profesional con diseño futurista y temática cyberpunk, optimizado para mostrar skills en desarrollo y ciberseguridad.\n\n**Características de diseño:**\n• Tema cyberpunk con efectos Matrix\n• Animaciones suaves con Framer Motion\n• Responsive design mobile-first\n• Paleta de colores tech (cyan, verde matrix, rojos)\n• Tipografías tech (JetBrains Mono + Orbitron)\n\n**Funcionalidades:**\n• Secciones interactivas con datos dinámicos\n• Formulario de contacto funcional con EmailJS\n• Efectos visuales (glitch, glow, animaciones)\n• SEO optimizado para GitHub Pages\n• Performance optimizada (Lighthouse >90)",
+    "technologies": ["React", "Vite", "Tailwind CSS", "Framer Motion", "EmailJS", "GitHub Pages"],
+    "githubUrl": "https://github.com/Matias-sh/mi-portafolio",
+    "liveUrl": "https://matias-sh.github.io/mi-portafolio",
+    "demoUrl": "",
+    "imageUrl": "",
+    "featured": true,
+    "status": "Completed",
+    "startDate": "2024-08-01",
+    "endDate": "2024-08-26",
+    "challenges": [
+      "Optimización para GitHub Pages",
+      "Efectos visuales sin impactar performance",
+      "Responsive design complejo"
+    ],
+    "achievements": [
+      "Lighthouse Score >90 en todas las categorías",
+      "Deploy automático con GitHub Actions",
+      "Diseño único y memorabile"
+    ]
+  }
+]

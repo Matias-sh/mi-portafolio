@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "company": "Polo Científico Tecnológico",
+    "position": "Desarrollador Django Backend",
+    "location": "Buenos Aires, Argentina",
+    "type": "Tiempo Completo",
+    "startDate": "2023-03-01",
+    "endDate": "2024-01-31",
+    "current": false,
+    "description": "Desarrollo de aplicaciones web robustas utilizando Django y Python para proyectos científicos y tecnológicos del sector público.\n\n• Implementación de APIs RESTful para integración con sistemas externos\n• Desarrollo de dashboards administrativos complejos\n• Optimización de consultas de base de datos PostgreSQL\n• Implementación de medidas de seguridad y autenticación\n• Colaboración en equipo utilizando metodologías ágiles",
+    "technologies": ["Django", "Python", "PostgreSQL", "REST APIs", "Git", "Docker", "Linux"],
+    "achievements": [
+      "Optimización del 40% en tiempo de respuesta de APIs críticas",
+      "Implementación de sistema de autenticación JWT",
+      "Migración exitosa de base de datos legacy"
+    ],
+    "companyUrl": "https://www.polo.gob.ar/",
+    "logo": ""
+  },
+  {
+    "id": 2,
+    "company": "Push Software",
+    "position": "Desarrollador Android",
+    "location": "Buenos Aires, Argentina", 
+    "type": "Tiempo Completo",
+    "startDate": "2022-06-01",
+    "endDate": "2023-02-28",
+    "current": false,
+    "description": "Desarrollo de aplicaciones móviles Android utilizando Kotlin y arquitecturas modernas, enfocado en la experiencia de usuario y rendimiento.\n\n• Migración de aplicaciones legacy a Jetpack Compose\n• Implementación de arquitectura MVVM con Clean Architecture\n• Integración con APIs REST y GraphQL\n• Optimización de rendimiento y gestión de memoria\n• Testing unitario y de integración con JUnit y Espresso",
+    "technologies": ["Kotlin", "Android", "Jetpack Compose", "MVVM", "Room", "Retrofit", "Git"],
+    "achievements": [
+      "Migración exitosa de 3 aplicaciones a Jetpack Compose",
+      "Reducción del 50% en crashes de aplicación",
+      "Implementación de arquitectura escalable"
+    ],
+    "companyUrl": "https://pushsoftware.com/",
+    "logo": ""
+  },
+  {
+    "id": 3,
+    "company": "Orbita Push",
+    "position": "Desarrollador Junior Android",
+    "location": "Buenos Aires, Argentina",
+    "type": "Tiempo Completo",
+    "startDate": "2021-08-01",
+    "endDate": "2022-05-31", 
+    "current": false,
+    "description": "Primera experiencia profesional en desarrollo móvil, enfocada en aprendizaje acelerado y crecimiento técnico en un ambiente colaborativo.\n\n• Desarrollo de features para aplicaciones existentes\n• Corrección de bugs y mejoras de UI/UX\n• Aprendizaje de mejores prácticas de desarrollo Android\n• Participación en code reviews y pair programming\n• Documentación técnica de componentes desarrollados",
+    "technologies": ["Java", "Android SDK", "SQLite", "REST APIs", "Git", "XML"],
+    "achievements": [
+      "Desarrollo de 5+ features críticas para aplicaciones en producción",
+      "Resolución de 50+ issues reportados por usuarios",
+      "Transición exitosa de Java a Kotlin"
+    ],
+    "companyUrl": "#",
+    "logo": ""
+  }
+]

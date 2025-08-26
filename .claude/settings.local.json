@@ -8,7 +8,8 @@
       "Bash(pip install:*)",
       "Bash(.venvScriptsactivate)",
       "Bash(django-admin startproject:*)",
-      "Bash(npm install)"
+      "Bash(npm install)",
+      "Bash(npm install:*)"
     ],
     "deny": [],
     "ask": []

@@ -3,27 +3,26 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  root: 'frontend',
+  base: '/mi-portafolio/',  // Important for GitHub Pages
   build: {
-    outDir: '../static/dist',
+    outDir: 'dist',
     emptyOutDir: true,
+    assetsDir: 'assets',
     rollupOptions: {
-      input: 'frontend/src/main.jsx'
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          motion: ['framer-motion'],
+          icons: ['lucide-react']
+        }
+      }
     }
   },
   server: {
     port: 3000,
-    proxy: {
-      '/api': {
-        target: 'http://localhost:8000',
-        changeOrigin: true,
-        secure: false,
-      },
-      '/media': {
-        target: 'http://localhost:8000',
-        changeOrigin: true,
-        secure: false,
-      }
-    }
+    host: true
+  },
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'framer-motion', 'lucide-react']
   }
 })

@@ -1,0 +1,212 @@
+{
+  "categories": {
+    "pentesting": {
+      "name": "Pentesting & Security",
+      "icon": "shield",
+      "color": "cyan",
+      "skills": [
+        {
+          "name": "OWASP Top 10",
+          "proficiency": 85,
+          "description": "Vulnerabilidades web críticas y técnicas de mitigación",
+          "category": "Web Security",
+          "experience": "2+ años",
+          "certifications": []
+        },
+        {
+          "name": "Nmap",
+          "proficiency": 90,
+          "description": "Escaneo de puertos, descubrimiento de servicios y host discovery",
+          "category": "Network Scanning",
+          "experience": "2+ años",
+          "certifications": []
+        },
+        {
+          "name": "Burp Suite",
+          "proficiency": 80,
+          "description": "Testing de aplicaciones web, proxy HTTP y análisis de vulnerabilidades",
+          "category": "Web Testing",
+          "experience": "1+ año",
+          "certifications": []
+        },
+        {
+          "name": "Metasploit",
+          "proficiency": 75,
+          "description": "Framework de explotación y desarrollo de exploits",
+          "category": "Exploitation",
+          "experience": "1+ año",
+          "certifications": []
+        },
+        {
+          "name": "OSINT",
+          "proficiency": 85,
+          "description": "Inteligencia de fuentes abiertas y recolección de información",
+          "category": "Intelligence",
+          "experience": "2+ años",
+          "certifications": []
+        },
+        {
+          "name": "Social Engineering",
+          "proficiency": 70,
+          "description": "Técnicas de ingeniería social y awareness de seguridad",
+          "category": "Human Hacking",
+          "experience": "1+ año",
+          "certifications": []
+        }
+      ]
+    },
+    "mobile": {
+      "name": "Desarrollo Mobile",
+      "icon": "smartphone", 
+      "color": "green",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "proficiency": 95,
+          "description": "Desarrollo Android nativo con lenguaje moderno",
+          "category": "Programming Language",
+          "experience": "3+ años",
+          "certifications": []
+        },
+        {
+          "name": "Jetpack Compose",
+          "proficiency": 90,
+          "description": "UI toolkit moderna y declarativa para Android",
+          "category": "UI Framework",
+          "experience": "2+ años",
+          "certifications": []
+        },
+        {
+          "name": "Android Architecture",
+          "proficiency": 88,
+          "description": "MVVM, Clean Architecture, Repository Pattern",
+          "category": "Architecture",
+          "experience": "3+ años",
+          "certifications": []
+        },
+        {
+          "name": "Room Database",
+          "proficiency": 85,
+          "description": "Base de datos local SQLite para Android con ORM",
+          "category": "Database",
+          "experience": "3+ años",
+          "certifications": []
+        },
+        {
+          "name": "Retrofit",
+          "proficiency": 90,
+          "description": "Cliente HTTP para Android, consumo de APIs REST",
+          "category": "Networking",
+          "experience": "3+ años",
+          "certifications": []
+        }
+      ]
+    },
+    "backend": {
+      "name": "Backend Development",
+      "icon": "server",
+      "color": "purple", 
+      "skills": [
+        {
+          "name": "Django",
+          "proficiency": 90,
+          "description": "Framework web de Python para desarrollo rápido y seguro",
+          "category": "Web Framework",
+          "experience": "2+ años",
+          "certifications": []
+        },
+        {
+          "name": "Python",
+          "proficiency": 92,
+          "description": "Programación backend, scripting y automatización",
+          "category": "Programming Language", 
+          "experience": "3+ años",
+          "certifications": []
+        },
+        {
+          "name": "PostgreSQL",
+          "proficiency": 80,
+          "description": "Base de datos relacional avanzada con optimización de queries",
+          "category": "Database",
+          "experience": "2+ años",
+          "certifications": []
+        },
+        {
+          "name": "REST APIs",
+          "proficiency": 88,
+          "description": "Diseño e implementación de APIs RESTful escalables",
+          "category": "API Design",
+          "experience": "2+ años", 
+          "certifications": []
+        },
+        {
+          "name": "Docker",
+          "proficiency": 75,
+          "description": "Containerización de aplicaciones y deployment",
+          "category": "DevOps",
+          "experience": "1+ año",
+          "certifications": []
+        }
+      ]
+    },
+    "tools": {
+      "name": "Tools & Platforms",
+      "icon": "terminal",
+      "color": "orange",
+      "skills": [
+        {
+          "name": "Git",
+          "proficiency": 90,
+          "description": "Control de versiones distribuido y colaboración",
+          "category": "Version Control",
+          "experience": "4+ años",
+          "certifications": []
+        },
+        {
+          "name": "Linux",
+          "proficiency": 85,
+          "description": "Administración de sistemas Linux y bash scripting",
+          "category": "Operating System",
+          "experience": "3+ años",
+          "certifications": []
+        },
+        {
+          "name": "Kali Linux",
+          "proficiency": 80,
+          "description": "Distribución especializada para pentesting y auditorías",
+          "category": "Security OS",
+          "experience": "1+ año",
+          "certifications": []
+        },
+        {
+          "name": "Wireshark",
+          "proficiency": 75,
+          "description": "Análisis de tráfico de red y protocolos",
+          "category": "Network Analysis",
+          "experience": "1+ año",
+          "certifications": []
+        },
+        {
+          "name": "VS Code",
+          "proficiency": 95,
+          "description": "Editor de código avanzado con extensiones",
+          "category": "IDE",
+          "experience": "4+ años",
+          "certifications": []
+        }
+      ]
+    }
+  },
+  "summary": {
+    "totalSkills": 21,
+    "averageProficiency": 84,
+    "topSkills": ["Kotlin", "Python", "Django", "Nmap", "VS Code"],
+    "learningGoals": [
+      "Certified Ethical Hacker (CEH)",
+      "OSCP Certification", 
+      "Advanced Malware Analysis",
+      "Cloud Security (AWS/Azure)",
+      "Mobile Application Security"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Matías Britez",
+  "title": "Técnico en Programación | Cybersecurity Specialist",
+  "subtitle": "Desarrollador Android → Red Team Operator",
+  "bio": "Desarrollador Android especializado en Kotlin y Jetpack Compose con sólida experiencia en el desarrollo de aplicaciones móviles robustas y escalables.\n\nActualmente en transición hacia la Ciberseguridad Ofensiva, enfocándome en Red Team Operations y Penetration Testing. Estudiante avanzado de Licenciatura en Ciberdefensa en UNDEF.\n\nMi experiencia incluye trabajo en el Polo Científico Tecnológico y empresas como Push Software, donde he desarrollado soluciones tecnológicas innovadoras combinando desarrollo móvil con principios de seguridad.\n\nApasionado por la investigación de vulnerabilidades, CTFs y el aprendizaje continuo en el campo de la ciberseguridad.",
+  "email": "matiasbritez.sh@gmail.com",
+  "phone": "3704510019",
+  "location": "Buenos Aires, Argentina",
+  "linkedin": "https://linkedin.com/in/matias-federico-britez",
+  "github": "https://github.com/Matias-sh",
+  "twitter": "",
+  "website": "",
+  "resumeUrl": "#",
+  "profileImage": "",
+  "availability": "Disponible para proyectos",
+  "languages": ["Español (Nativo)", "Inglés (Intermedio)"],
+  "interests": [
+    "Red Team Operations",
+    "Mobile Security",
+    "CTF Competitions", 
+    "Vulnerability Research",
+    "Open Source Intelligence",
+    "Social Engineering",
+    "Android Development",
+    "Ethical Hacking"
+  ]
+}
