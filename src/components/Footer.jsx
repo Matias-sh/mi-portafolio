@@ -123,7 +123,7 @@ const Footer = () => {
             >
               {skills.map((skill, index) => (
                 <li key={skill} className="text-gray-400 hover:text-cyber-green transition-colors duration-300">
-                  <span className="text-cyber-green mr-2">></span>
+                  <span className="text-cyber-green mr-2">&gt;</span>
                   {skill}
                 </li>
               ))}

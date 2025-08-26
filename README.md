@@ -1,158 +1,131 @@
 # 🛡️ Cybersecurity Portfolio - Matías Britez
 
-[![CI/CD Pipeline](https://github.com/yourusername/portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/portfolio/actions/workflows/ci.yml)
-[![Deploy to Pages](https://github.com/yourusername/portfolio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/yourusername/portfolio/actions/workflows/deploy-pages.yml)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=yourusername_portfolio&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=yourusername_portfolio)
-[![Coverage](https://codecov.io/gh/yourusername/portfolio/branch/main/graph/badge.svg)](https://codecov.io/gh/yourusername/portfolio)
+[![Deploy to GitHub Pages](https://github.com/Matias-sh/mi-portafolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/Matias-sh/mi-portafolio/actions/workflows/deploy.yml)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-4.0-purple?logo=vite)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3-blue?logo=tailwindcss)](https://tailwindcss.com/)
 
 Portfolio profesional de Matías Britez - Desarrollador Android especializado en transición hacia Ciberseguridad Ofensiva y Red Team Operations.
 
 ## 🚀 Demo en Vivo
 
-- **Producción**: [https://yourusername.github.io/portfolio](https://yourusername.github.io/portfolio)
-- **API Docs**: [https://api.portfolio.com/docs](https://api.portfolio.com/docs)
+- **Producción**: [https://matias-sh.github.io/mi-portafolio](https://matias-sh.github.io/mi-portafolio)
 
 ## 🏗️ Arquitectura
 
-### Backend
-- **Framework**: Django 4.2+ con Django REST Framework
-- **Base de datos**: PostgreSQL (producción) / SQLite (desarrollo)
-- **Cache**: Redis para sesiones y cache de aplicación
-- **Autenticación**: JWT + Session-based auth
-- **APIs**: RESTful APIs con documentación OpenAPI/Swagger
-
-### Frontend
+### Frontend (SPA - Single Page Application)
 - **Framework**: React 18 con Hooks modernos
 - **Styling**: Tailwind CSS con tema cyberpunk personalizado
 - **Animations**: Framer Motion para transiciones suaves
 - **Build**: Vite para desarrollo rápido y builds optimizados
 - **Routing**: React Router v6 con lazy loading
+- **Form Handling**: React Hook Form + EmailJS para formularios de contacto
+- **Icons**: Lucide React para iconografía moderna
 
 ### DevOps & Deployment
-- **Containerización**: Docker multi-stage builds
-- **Orquestación**: Docker Compose para desarrollo
-- **CI/CD**: GitHub Actions con testing automatizado
-- **Deployment**: GitHub Pages (frontend) + Railway/Heroku (backend)
-- **Proxy**: Nginx con SSL/TLS y rate limiting
-- **Monitoring**: Logs estructurados y health checks
+- **CI/CD**: GitHub Actions con despliegue automático
+- **Hosting**: GitHub Pages (sitio estático)
+- **Performance**: Code splitting automático y optimización de assets
+- **SEO**: Meta tags optimizados y estructura semántica
 
 ## 🛠️ Stack Tecnológico
 
-### Backend Technologies
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-![Django](https://img.shields.io/badge/Django-4.2-green?logo=django)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql)
-![Redis](https://img.shields.io/badge/Redis-7-red?logo=redis)
-
 ### Frontend Technologies
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3-blue?logo=tailwindcss)
 ![Vite](https://img.shields.io/badge/Vite-4.0-purple?logo=vite)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-ff69b4?logo=framer)
 
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-24-blue?logo=docker)
+### Development & Deployment
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-green?logo=github-actions)
-![Nginx](https://img.shields.io/badge/Nginx-1.25-green?logo=nginx)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Hosting-blue?logo=github)
+![ESLint](https://img.shields.io/badge/ESLint-8-purple?logo=eslint)
+![PostCSS](https://img.shields.io/badge/PostCSS-8-red?logo=postcss)
 
 ## 🚀 Inicio Rápido
 
 ### Prerrequisitos
-- Python 3.11+
-- Node.js 18+
-- PostgreSQL 15+ (para producción)
-- Redis 7+ (para producción)
-- Docker & Docker Compose (opcional)
+- Node.js 18+ (Recomendado: última versión LTS)
+- npm o yarn como gestor de paquetes
+- Git para control de versiones
 
-### Instalación con Docker (Recomendado)
+### Instalación Local
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
-
-# Configurar variables de entorno
-cp .env.example .env
-# Editar .env con tus configuraciones
-
-# Levantar servicios
-docker-compose up --build
-
-# Ejecutar migraciones (primera vez)
-docker-compose exec web python manage.py migrate
-
-# Crear superusuario
-docker-compose exec web python manage.py createsuperuser
-
-# Poblar con datos de ejemplo
-docker-compose exec web python populate_simple.py
-```
-
-### Instalación Manual
-
-#### Backend Setup
-```bash
-# Crear entorno virtual
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate   # Windows
+git clone https://github.com/Matias-sh/mi-portafolio.git
+cd mi-portafolio
 
 # Instalar dependencias
-pip install -r requirements.txt
-
-# Configurar variables de entorno
-cp .env.example .env
-
-# Ejecutar migraciones
-python manage.py migrate
-
-# Crear superusuario
-python manage.py createsuperuser
-
-# Poblar datos de ejemplo
-python populate_simple.py
-
-# Ejecutar servidor de desarrollo
-python manage.py runserver
-```
-
-#### Frontend Setup
-```bash
-# Instalar dependencias de Node.js
 npm install
 
 # Ejecutar servidor de desarrollo
 npm run dev
 
-# Build para producción
-npm run build
+# La aplicación estará disponible en:
+# http://localhost:3000/mi-portafolio/
+```
+
+### Scripts Disponibles
+
+```bash
+# Desarrollo
+npm run dev          # Servidor de desarrollo con hot reload
+
+# Producción
+npm run build        # Build optimizado para producción
+npm run preview      # Preview del build de producción
+npm run serve        # Servidor de preview (puerto 4173)
+
+# Linting y formato
+npm run lint         # Verificar estándares de código
+npm run lint:fix     # Corregir problemas de linting automáticamente
+npm run format       # Formatear código con Prettier
+
+# Deployment (opcional)
+npm run deploy       # Deploy manual a GitHub Pages
 ```
 
 ## 📁 Estructura del Proyecto
 
 ```
-portfolio/
-├── 📁 .github/workflows/     # GitHub Actions CI/CD
-├── 📁 frontend/             # Aplicación React
-│   ├── 📁 src/
-│   │   ├── 📁 components/   # Componentes reutilizables
-│   │   ├── 📁 pages/        # Páginas principales
-│   │   ├── 📁 hooks/        # Custom React hooks
-│   │   └── 📁 utils/        # Utilidades y helpers
-│   └── 📄 index.html
-├── 📁 main/                 # App principal Django
-│   ├── 📄 models.py         # Modelos de datos
-│   ├── 📄 views.py          # APIs y vistas
-│   ├── 📄 admin.py          # Configuración admin
-│   └── 📄 urls.py           # Rutas de la API
-├── 📁 writeups/             # App para CTF writeups
-├── 📁 static/               # Archivos estáticos
-├── 📁 templates/            # Templates Django
-├── 📁 media/                # Archivos de media
-├── 📄 docker-compose.yml    # Configuración Docker
-├── 📄 Dockerfile           # Imagen Docker
-├── 📄 nginx.conf           # Configuración Nginx
-└── 📄 requirements.txt     # Dependencias Python
+mi-portafolio/
+├── 📁 .github/workflows/    # GitHub Actions para CI/CD
+│   └── 📄 deploy.yml        # Workflow de despliegue automático
+├── 📁 public/              # Archivos públicos estáticos
+├── 📁 src/                 # Código fuente de la aplicación
+│   ├── 📁 components/      # Componentes React reutilizables
+│   │   ├── 📁 sections/    # Secciones principales del sitio
+│   │   │   ├── 📄 HeroSection.jsx
+│   │   │   ├── 📄 AboutSection.jsx
+│   │   │   ├── 📄 SkillsSection.jsx
+│   │   │   ├── 📄 ExperienceSection.jsx
+│   │   │   ├── 📄 ProjectsSection.jsx
+│   │   │   └── 📄 CertificationsSection.jsx
+│   │   ├── 📄 Navbar.jsx    # Navegación principal
+│   │   ├── 📄 Footer.jsx    # Pie de página
+│   │   ├── 📄 MatrixBackground.jsx # Efecto Matrix de fondo
+│   │   └── 📄 ScrollToTop.jsx # Botón scroll to top
+│   ├── 📁 pages/           # Páginas/Vistas principales
+│   │   ├── 📄 Home.jsx     # Página de inicio
+│   │   ├── 📄 Projects.jsx # Página de proyectos
+│   │   ├── 📄 ProjectDetail.jsx # Detalle de proyecto
+│   │   └── 📄 Contact.jsx  # Página de contacto
+│   ├── 📁 data/           # Datos estáticos en JSON
+│   │   ├── 📄 profile.json     # Información personal
+│   │   ├── 📄 experience.json  # Experiencia laboral
+│   │   ├── 📄 projects.json    # Proyectos realizados
+│   │   └── 📄 skills.json      # Habilidades técnicas
+│   ├── 📄 App.jsx         # Componente raíz de la aplicación
+│   ├── 📄 main.jsx        # Punto de entrada React
+│   └── 📄 index.css       # Estilos globales y Tailwind CSS
+├── 📄 index.html          # Template HTML principal
+├── 📄 vite.config.js      # Configuración de Vite
+├── 📄 tailwind.config.js  # Configuración de Tailwind CSS
+├── 📄 postcss.config.js   # Configuración de PostCSS
+├── 📄 package.json        # Dependencias y scripts de npm
+└── 📄 README.md          # Documentación del proyecto
 ```
 
 ## 🎨 Diseño & UI/UX
@@ -203,25 +176,21 @@ Referrer-Policy: strict-origin-when-cross-origin
 - **Compression**: Gzip/Brotli en Nginx
 - **Caching**: Redis para cache de aplicación + HTTP caching
 
-## 🧪 Testing
+## 🧪 Testing & Calidad de Código
 
 ```bash
-# Backend tests
-python manage.py test
-coverage run --source='.' manage.py test
-coverage report
+# Linting y validación de código
+npm run lint         # ESLint para JavaScript/React
+npm run lint:fix     # Auto-fix de problemas de linting
 
-# Frontend tests
-npm run test
-npm run test:coverage
+# Formateo de código
+npm run format       # Prettier para formato consistente
 
-# Linting
-python -m flake8
-npm run lint
+# Build de validación
+npm run build        # Verificar que el build es exitoso
 
-# Security scanning
-bandit -r .
-safety check
+# Preview local del build
+npm run preview      # Probar la versión de producción localmente
 ```
 
 ## 📈 Monitoreo
@@ -243,51 +212,54 @@ safety check
 
 ## 🚢 Deployment
 
-### GitHub Pages (Frontend Only)
+### GitHub Pages (Automático)
 ```bash
-# Automático via GitHub Actions al hacer push a main
-# URL: https://yourusername.github.io/portfolio
+# El deployment es automático via GitHub Actions
+# Se ejecuta en cada push a la rama 'main'
+
+# URL de producción:
+# https://matias-sh.github.io/mi-portafolio/
 ```
 
-### Railway/Heroku (Full Stack)
+### Deploy Manual (Opcional)
 ```bash
-# Configurar variables de entorno en la plataforma
-# Deploy automático desde GitHub
+# Para deployments manuales ocasionales
+npm run deploy
+
+# Esto ejecutará:
+# 1. npm run build (genera archivos optimizados)
+# 2. gh-pages -d dist (sube a GitHub Pages)
 ```
 
-### VPS/Servidor Propio
+### Configuración del Repositorio
 ```bash
-# Clonar en servidor
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
-
-# Configurar environment
-cp .env.example .env
-# Editar variables de producción
-
-# Deploy con Docker
-docker-compose -f docker-compose.prod.yml up -d
+# Asegurar que GitHub Pages esté habilitado:
+# 1. Ir a Settings > Pages
+# 2. Source: "Deploy from a branch"
+# 3. Branch: "gh-pages" / root
+# 4. O usar "GitHub Actions" (recomendado)
 ```
 
-## 🔧 Variables de Entorno
+## 🔧 Configuración
 
-Ver `.env.example` para la lista completa. Variables críticas:
+### EmailJS (Opcional)
+Para que el formulario de contacto funcione, configurar EmailJS:
 
-```env
-# Obligatorias
-SECRET_KEY=your-unique-secret-key
-ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
-
-# Base de datos
-DB_NAME=portfolio_db
-DB_USER=portfolio_user  
-DB_PASSWORD=strong-password
-DB_HOST=localhost
-
-# Email
-EMAIL_HOST_USER=your-email@gmail.com
-EMAIL_HOST_PASSWORD=your-app-password
+```javascript
+// En src/pages/Contact.jsx, reemplazar:
+const EMAILJS_SERVICE_ID = 'your_service_id'
+const EMAILJS_TEMPLATE_ID = 'your_template_id'
+const EMAILJS_PUBLIC_KEY = 'your_public_key'
 ```
+
+### Personalización
+Para personalizar el contenido:
+
+1. **Datos personales**: Editar `src/data/profile.json`
+2. **Experiencia laboral**: Editar `src/data/experience.json`
+3. **Proyectos**: Editar `src/data/projects.json`
+4. **Habilidades**: Editar `src/data/skills.json`
+5. **Colores del tema**: Modificar `tailwind.config.js`
 
 ## 🤝 Contribución
 

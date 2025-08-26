@@ -70,7 +70,9 @@ const HeroSection = () => {
             key={i}
             className="absolute w-20 h-20 border border-cyber-cyan/20 rotate-45"
             style={{
-              clipPath: 'polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%)'
+              clipPath: 'polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%)',
+              left: `${10 + i * 15}%`,
+              top: `${20 + i * 10}%`
             }}
             animate={{
               x: [0, 100, 0],
@@ -81,10 +83,6 @@ const HeroSection = () => {
               duration: 10 + i * 2,
               repeat: Infinity,
               repeatType: 'loop'
-            }}
-            style={{
-              left: `${10 + i * 15}%`,
-              top: `${20 + i * 10}%`
             }}
           />
         ))}
